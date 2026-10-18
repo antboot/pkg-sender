@@ -99,7 +99,7 @@ family grouping on one side, change the other. The shared rules are:
 
 | Workflow | Trigger | Output |
 | -------- | ------- | ------ |
-| `docker-image.yml` | push to `main` touching `docker-ps4-pkg-sender/**` (or manual) | `ghcr.io/huahn3/docker-ps4-pkg-sender:latest` + `sha-<short>` |
+| `docker-image.yml` | push to `main` touching `docker-ps4-pkg-sender/**` (or manual) | `ghcr.io/antboot/docker-ps4-pkg-sender:latest` + `sha-<short>` |
 | `linux-deb.yml` | push touching `library/**`, `LoopDPI.Core/**`, `payload/pkg-receiver.elf` | `.deb` artifact |
 | `ios.yml` | push touching `ios/**`, `LoopDPI.Core/**` | iOS IPA |
 | releases | manual `Build-Release.bat` on Windows | `PkgSender-Setup-*.exe`, self-updating asset |
