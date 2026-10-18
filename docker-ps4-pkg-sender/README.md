@@ -43,7 +43,7 @@ version: '3.8'
 
 services:
   ps4-pkg-sender:
-    image: ghcr.io/huahn3/docker-ps4-pkg-sender:latest
+    image: ghcr.io/antboot/docker-ps4-pkg-sender:latest
     container_name: ps4-pkg-sender
     restart: unless-stopped
     ports:
