@@ -12,7 +12,7 @@ read it before making changes; this skill is the quick-reference layer.
 
 1. **Desktop app** — `.NET 8` Avalonia: `library/` (UI) + `LoopDPI.Core/` (logic).
 2. **PS5 receiver payload** — `payload/main.c` → shipped `payload/pkg-receiver.elf`, listens on `12800`.
-3. **Docker web UI** — `docker-ps4-pkg-sender/` (Node 20/Express), image `ghcr.io/huahn3/docker-ps4-pkg-sender:latest`.
+3. **Docker web UI** — `docker-ps4-pkg-sender/` (Node 20/Express), image `ghcr.io/antboot/docker-ps4-pkg-sender:latest`.
 
 ## 60-second web UI preview (no Docker, no console)
 
